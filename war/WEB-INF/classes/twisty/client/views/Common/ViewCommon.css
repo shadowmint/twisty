@@ -1,9 +1,0 @@
-.footer span {
-	border: 1px solid #000;
-	position: absolute; 
-	bottom: 0px;
-}
-html body, table td, select, input {
-	font-family: 'CicleGordita' !important;
-	font-size: 14px;
-}

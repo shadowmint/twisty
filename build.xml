@@ -135,15 +135,15 @@ Test targets suppressed because -junit argument was not specified when running w
     <delete file="Twisty.jar"/>
     <jar destfile="Twisty.jar">
       <fileset dir="src">
-        <include name="twisty/client/utils/**/*.*"/>
-        <include name="twisty/client/components/frame/**/*.*"/>
+        <include name="twisty/client/**/*.*"/>
         <include name="twisty/shared/**/*.*"/>
+        <include name="twisty/server/**/*.*"/>
         <include name="**/*.xml"/>
       </fileset>
       <fileset dir="war/WEB-INF/classes">
-        <include name="twisty/client/utils/**/*.class"/>
-        <include name="twisty/client/components/frame/**/*.class"/>
+        <include name="twisty/client/**/*.class"/>
         <include name="twisty/shared/**/*.class"/>
+        <include name="twisty/server/**/*.class"/>
       </fileset>
     </jar>
   </target>
