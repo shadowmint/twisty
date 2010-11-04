@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+  <!-- Auth service. -->
+  <servlet>
+    <servlet-name>AuthServlet</servlet-name>
+    <servlet-class>twisty.server.api.AuthServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthServlet</servlet-name>
+    <url-pattern>/twisty/api/AuthService</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Captcha service. -->
+  <servlet>
+    <servlet-name>jcaptcha</servlet-name>
+    <servlet-class>twisty.server.extras.CaptchaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jcaptcha</servlet-name>
+    <url-pattern>/jcaptcha.jpg</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>Twisty.html</welcome-file>
+  </welcome-file-list>
+</web-app>

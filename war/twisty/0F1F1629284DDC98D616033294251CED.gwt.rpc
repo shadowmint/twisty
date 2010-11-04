@@ -1,0 +1,9 @@
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+twisty.client.rpc.AuthService, false, false, false, false, _, 1140346386
+twisty.data.Error, true, true, false, false, twisty.data.Error/3628275364, 3628275364
+twisty.data.Object, true, false, false, false, twisty.data.Object/183486176, 183486176
+twisty.data.model.User, true, true, false, false, twisty.data.model.User/2623834375, 2623834375

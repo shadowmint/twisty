@@ -1,0 +1,44 @@
+/** Basic styles. */
+.Component-Frame {
+	border-collapse: collapse;
+}
+.Component-Frame td {
+	border: 0px solid #000;
+	padding: 0px;
+	margin: 0px;
+}
+.Component-Frame-TopLeft {
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.Component-Frame-Top {
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+.Component-Frame-TopRight {
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+.Component-Frame-Left {
+	background-repeat: repeat-y;
+	background-position: left center;
+}
+.Component-Frame-Center {
+	background-repeat: repeat;
+}
+.Component-Frame-Right {
+	background-repeat: repeat-y;
+	background-position: right center;
+}
+.Component-Frame-BottomLeft {
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.Component-Frame-Bottom {
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+.Component-Frame-BottomRight {
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}

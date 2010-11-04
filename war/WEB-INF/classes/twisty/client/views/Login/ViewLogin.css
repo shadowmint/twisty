@@ -1,0 +1,37 @@
+.viewLogin {
+	margin: 25px;
+	float: right;
+}
+.viewLogin div {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+.viewLogin input {
+	width: 200px;
+	margin-left: 5px;
+}
+.loginForm {
+	padding: 5px 7px 7px 10px;
+	background: #cacaca;
+	margin: 0px;
+}
+.lineContainer {
+	line-height: 30px;
+}
+.loginForm div span {
+	font-size: 16px;
+	color: #ffffff;
+}
+.loginButton {
+	float: right;
+}
+.loginButton tbody tr td div span {
+	color: #333;
+	font-size: 12px;
+	padding: 2px;
+	cursor: pointer;
+}
+.loginButton tbody tr td div span:active {
+	color: #f33;	
+}
