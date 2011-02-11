@@ -1,6 +1,8 @@
 package twisty.server.service.net;
 
 import java.net.HttpURLConnection;
+import java.util.Map;
+import java.util.List;
 
 public class ServiceNetResponse {
   
@@ -15,4 +17,7 @@ public class ServiceNetResponse {
   
   /** The connection object. */
   public HttpURLConnection connection;
+
+  /** The response headers. */
+  public Map<String,List<String>> headers;
 }

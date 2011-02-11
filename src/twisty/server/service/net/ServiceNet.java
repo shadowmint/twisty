@@ -16,7 +16,7 @@
 
 package twisty.server.service.net;
 
-import java.util.HashMap;
+import java.util.Map;
 
 import twisty.server.service.Service;
 
@@ -28,8 +28,8 @@ public interface ServiceNet extends Service {
 	};
 	
 	/** Performs a fetch operation on a remote url. */
-	public ServiceNetResponse makeRequest(Method method, String url, HashMap<String,String> params) throws Exception;
+	public ServiceNetResponse makeRequest(Method method, String url, Map<String,String> headers, Map<String,String> params) throws Exception;
 	
 	/** Performs a fetch operation on a remote url. */
-	public ServiceNetResponse makeRequest(Method method, String url, String payload, String contentType) throws Exception;
+	public ServiceNetResponse makeRequest(Method method, String url, Map<String,String> headers, String payload) throws Exception;
 }
